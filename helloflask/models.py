@@ -15,3 +15,7 @@ class User(Base):
     id = Column(Integer,primary_key=True)
     username = Column(String(32), nullable=False)
     password = Column(String(256), nullable=False)
+
+engine = create_engine('sqlite:///test.db')
+
+Base.metadata.create_all(engine)
