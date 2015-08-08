@@ -18,7 +18,8 @@ Single module can be found [here](https://github.com/ctnx/python-flask-single)
 │   ├── templates
 │   ├── views.py
 ├── requirements.txt
-├── test.db```
+├── test.db
+```
 
 ## Usage
 Cloning using git:
