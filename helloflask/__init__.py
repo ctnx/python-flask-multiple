@@ -8,7 +8,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 app.secret_key = 'super_secret_key'
 
-from helloflask import views
-from helloflask.auth import auth_blueprint
+from . import views
+from .auth import auth_blueprint
 
 app.register_blueprint(auth_blueprint)
