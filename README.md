@@ -5,7 +5,7 @@ Flask template using for large applications, as structure [recommended](http://f
 Single module can be found [here](https://github.com/ctnx/python-flask-single)
 
 ## Structure
-.
+```.
 ├── .gitignore
 ├── Procfile
 ├── README.md
@@ -18,7 +18,7 @@ Single module can be found [here](https://github.com/ctnx/python-flask-single)
 │   ├── templates
 │   ├── views.py
 ├── requirements.txt
-├── test.db
+├── test.db```
 
 ## Usage
 Cloning using git:
