@@ -1,11 +1,10 @@
-#Simple Flask Template - multiple modules
+#Flask Template - multiple modules
 
 Flask template using for large applications, as structure [recommended](http://flask.pocoo.org/docs/0.10/patterns/packages/)
 
-Single module can be found [here](https://github.com/ctnx/python-flask-multiple)
+Single module can be found [here](https://github.com/ctnx/python-flask-single)
 
 ## Structure
-```
 .
 ├── .gitignore
 ├── Procfile
@@ -20,9 +19,9 @@ Single module can be found [here](https://github.com/ctnx/python-flask-multiple)
 │   ├── views.py
 ├── requirements.txt
 ├── test.db
-```
+
 ## Usage
-Clone using git:
+Cloning using git:
 
 ``` git clone https://github.com/ctnx/python-flask-multiple helloflask ```
 
