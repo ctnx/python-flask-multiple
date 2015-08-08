@@ -1,25 +1,39 @@
-#Simple Flask Template - single module
+#Simple Flask Template - multiple modules
 
-Flask template using for single module only, used for simple application or people who've just started to study Flask.
+Flask template using for large applications, as structure [recommended](http://flask.pocoo.org/docs/0.10/patterns/packages/)
 
-The template contains:
-- Flask basic configuration/ views
-- Models & basic database using SQLAlchemy
-- Basic Jinja usage
+Single module can be found [here](https://github.com/ctnx/python-flask-multiple)
 
-Multiple module can be found [here](https://github.com/ctnx/python-flask-multiple)
-
+## Structure
+```
+.
+├── .gitignore
+├── Procfile
+├── README.md
+├── hello.py
+├── helloflask
+│   ├── __init__.py
+│   ├── auth.py
+│   ├── models.py
+│   ├── static
+│   ├── templates
+│   ├── views.py
+├── requirements.txt
+├── test.db
+```
 ## Usage
 Clone using git:
 
-``` git clone https://github.com/ctnx/python-flask-single flask ```
+``` git clone https://github.com/ctnx/python-flask-multiple helloflask ```
 
-``` cd flask ```
+``` cd helloflask ```
 
 ``` git remote remove origin ```
 
 ## Requirements:
-Basic template won't require much, only:
-- [Flask](http://flask.pocoo.org/)
-- [SQLAlchemy](http://www.sqlalchemy.org/)
-- [Jinja2](http://jinja.pocoo.org/)
+Requirements can be install via ```pip```
+
+``` pip install -r requirements.txt ```
+
+## Heroku Upload
+The file Procfile is created only for use with Heroku. Feel free to delete it if you intend to use different service provider/ or run locally.
